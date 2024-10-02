@@ -1,0 +1,58 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:antiquewhite;
+        }
+        header {
+            background-color: #4b3229;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+        }
+        .pets {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .pets1 {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;  
+        }
+        .pet {
+            background-color: white;
+            padding: 1rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            text-align: center;
+            width: 30%;
+        }
+        .pet img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+        .pet h3 {
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+        }
+        .pet p {
+            margin-bottom: 1rem;
+        }
+        .pet button {
+            background-color: #31201a;
+            color: white;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .pet button:hover {
+            background-color: #31201a;
+        }
+
+.section-title{
+    text-align: center;
+    color: white;
+}

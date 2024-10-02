@@ -1,0 +1,41 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:antiquewhite;
+        }
+        header {
+            background-color: #4b3229;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #6c4f45;
+            padding: 1rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+        }
+
+        .hero {
+            background-image: url(INICIO/banner.png);
+            background-color: #31201a;
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 4rem 1rem;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
